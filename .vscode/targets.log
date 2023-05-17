@@ -1,0 +1,309 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed May 17 19:21:07 2023
+
+# Variables
+
+# environment
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+SYSTEMDRIVE = C:
+# environment
+LC_ALL = C
+# environment
+USERPROFILE = C:\Users\muham
+# environment
+IDF_PATH = C:\Espressif\frameworks\esp-idf-v4.4.3
+# environment
+LOCALAPPDATA = C:\Users\muham\AppData\Local
+# environment
+VSCODE_CRASH_REPORTER_PROCESS_TYPE = extensionHost
+# environment
+VSCODE_CWD = C:\Espressif\frameworks\esp-idf-v4.4.3\examples\gate_controller_
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+OPENOCD_SCRIPTS = C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220706\openocd-esp32\share\openocd\scripts
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+TEMP_IDF_PATH = C:\Users\muham\AppData\Local\Temp\idf-path.txt
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\LOCAL\crashpad_10668_ZIWMQTQAAEWLAZAE
+# environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\muham\AppData\Roaming\Code\CachedData\b3e4e68a0bc097f0ae7907b217c1119af9e03435
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\muham\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\muham\OneDrive
+# environment
+IDF_PYTHON_ENV_PATH = C:\Espressif\python_env\idf4.4_py3.8_env
+# makefile
+CURDIR := c:/Espressif/frameworks/esp-idf-v4.4.3/examples/gate_controller_
+# environment
+IDF_PYTHON_DIR = C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_L10N_BUNDLE_LOCATION = 
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# environment
+IDF_TOOLS_PATH = C:\Espressif
+# makefile
+MAKEFILE_LIST := 
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 10668
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+IDF_PYTHON = C:/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe
+# automatic
+*F = $(notdir $*)
+# environment
+IDF_GIT_DIR = C:\Espressif\tools\idf-git\2.34.2\cmd\
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","osLocale":"en-pk","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\muham
+# environment
+IDF_CCACHE_ENABLE = 1
+# default
+MAKECMDGOALS := all
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Espressif\tools\xtensa-esp32-elf\esp-2021r2-patch5-8.4.0\xtensa-esp32-elf\bin;C:\Espressif\tools\xtensa-esp32s2-elf\esp-2021r2-patch5-8.4.0\xtensa-esp32s2-elf\bin;C:\Espressif\tools\xtensa-esp32s3-elf\esp-2021r2-patch5-8.4.0\xtensa-esp32s3-elf\bin;C:\Espressif\tools\riscv32-esp-elf\esp-2021r2-patch5-8.4.0\riscv32-esp-elf\bin;C:\Espressif\tools\esp32ulp-elf\2.35_20220830\esp32ulp-elf\bin;C:\Espressif\tools\cmake\3.23.1\bin;C:\Espressif\tools\openocd-esp32\v0.11.0-esp32-20220706\openocd-esp32\bin;C:\Espressif\tools\ninja\1.10.2\;C:\Espressif\tools\idf-exe\1.0.3\;C:\Espressif\tools\ccache\4.3\ccache-4.3-windows-64;C:\Espressif\tools\dfu-util\0.9\dfu-util-0.9-win64;C:\Espressif\frameworks\esp-idf-v4.4.3\tools;C:\Espressif\python_env\idf4.4_py3.8_env\Scripts\;C:\Espressif\tools\idf-git\2.34.2\cmd\;C:\Espressif;C:\Python311\Scripts\;C:\Python311\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Nordic Semiconductor\nrf-command-line-tools\bin\;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Nordic Semiconductor\nrf-command-line-tools\bin\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;C:\Users\muham\AppData\Local\Microsoft\WindowsApps;C:\Users\muham\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\muham\AppData\Local\GitHubDesktop\bin;C:\Users\muham\AppData\Roaming\npm
+# environment
+COMPUTERNAME = DESKTOP-TCM2OL2
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PYTHONNOUSERSITE = True
+# environment
+PROMPT = $P$G
+# environment
+PREFIX = C:/Espressif/python_env/idf4.4_py3.8_env/Scripts/python.exe C:/Espressif/frameworks/esp-idf-v4.4.3/
+# environment
+LOGONSERVER = \\DESKTOP-TCM2OL2
+# environment
+USERNAME = muham
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+PARAM = esp-idf-488335996b52b453fd97d57073cc3da8
+# environment
+USERDOMAIN = DESKTOP-TCM2OL2
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := 
+# default
+MAKE_VERSION := 4.3
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-TCM2OL2
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+PUBLIC = C:\Users\Public
+# environment
+APPDATA = C:\Users\muham\AppData\Roaming
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+TEMP_IDF_PYTHON_PATH = "C:\Users\muham\AppData\Local\Temp\idf-python-path.txt"
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\muham\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\a04221c9c0c8387ba4b514486497cd63-1.78.2-main-sock
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+SESSIONNAME = Console
+# environment
+VSCODE_CLI = 1
+# environment
+IDF_GIT = C:/Espressif/tools/idf-git/2.34.2/cmd/git.exe
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+TEMP_IDF_GIT_PATH = "C:\Users\muham\AppData\Local\Temp\idf-git-path.txt"
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 5e03
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 94 Stepping 3, GenuineIntel
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=12/133=9%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key c:/Espressif/frameworks/esp-idf-v4.4.3/examples/gate_controller_, mtime 1684333224): 11 files, no impossibilities.
+
+# 11 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 155 B / avg = 8 B
+# current buf: size = 8174 B / used = 155 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 21 / hit rate = 14%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/21=0%
+# Finished Make data base on Wed May 17 19:21:07 2023
+
+ 

@@ -1,0 +1,6 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Espressif/frameworks/esp-idf-v4.4.3/examples/gate_controller_'
+make: Leaving directory 'c:/Espressif/frameworks/esp-idf-v4.4.3/examples/gate_controller_'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+
